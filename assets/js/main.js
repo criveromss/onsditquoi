@@ -10,7 +10,7 @@ $(function () {
 		$(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
 	});
 
-	// contact-form 
+	// contact-form
 	$(".contact-btn").on('click', function () {
 		$(".contact-wrapper").addClass("show");
 	});
@@ -41,7 +41,7 @@ $(function () {
 		$(".sidebar").removeClass("show");
 	});
 
-	//Scroll top 
+	//Scroll top
 	$(".scroll-top").click(function () {
 		$("html,body").animate({ scrollTop: 0 }, 1000);
 	});
@@ -58,12 +58,12 @@ $(function () {
 		var $this = $(this),
 			finalDate = $(this).data('countdown');
 		$this.countdown(finalDate, function (event) {
-			$this.html(event.strftime('<div class="countdown d-flex"><div class="single-count-content"><span class="count">%D</span><p class="text">Days</p></div><div class="single-count-content"><span class="count">%H</span><p class="text">Hours</p></div><div class="single-count-content"><span class="count">%M</span><p class="text">Minutes</p></div><div class="single-count-content"><span class="count">%S</span><p class="text">Seconds</p></div></div>'));
+			$this.html(event.strftime('<div class="countdown d-flex"><div class="single-count-content"><span class="count">%D</span><p class="text">Jours</p></div><div class="single-count-content"><span class="count">%H</span><p class="text">Heures</p></div><div class="single-count-content"><span class="count">%M</span><p class="text">Minutes</p></div><div class="single-count-content"><span class="count">%S</span><p class="text">Secondes</p></div></div>'));
 		});
 	});
 
 	// WOW active
 	new WOW().init();
 
-});	
+});
 
