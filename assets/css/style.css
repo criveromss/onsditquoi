@@ -1487,3 +1487,8 @@ a:hover {
 .contact-form {
   padding: 15px;
 }
+
+button.btn.btn-primary.mt-5.mb-5 {
+  font-family: Museo700;
+  font-size: larger;
+}
