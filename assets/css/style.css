@@ -1049,7 +1049,7 @@ main .header.header-06 {
 main .header.header-06 .header-right a {
   color: #fff;
   font-size: 20px;
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
 }
 
 main .main-wrapper.demo-06 {
@@ -1068,7 +1068,7 @@ main .main-wrapper.demo-06 .hero-area h1 {
   font-size: 50px;
   font-weight: 700;
   color: #fff;
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1172,7 +1172,7 @@ main .main-wrapper.demo-06 .team-area {
 main .main-wrapper.demo-06 .team-area .section-title h1 {
   font-size: 50px;
   font-weight: 700;
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
   color: #fff;
   padding-bottom: 7px;
   margin-bottom: 40px;
@@ -1202,11 +1202,10 @@ main .main-wrapper.demo-06 .team-area .section-title h1::after {
 }
 
 main .main-wrapper.demo-06 .team-area .section-title h2 {
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
   font-weight: 300;
   font-size: 40px;
   line-height: 55px;
-  font-weight: 45px;
   color: #fff;
   margin-bottom: 50px;
 }
@@ -1336,7 +1335,7 @@ main .footer {
 }
 
 main .footer p {
-    font-family: "Museo";
+    font-family: "Museo", sans-serif;
     color: white;
     font-weight: 700;
     font-size: 35px;
@@ -1392,7 +1391,7 @@ main .footer .credit {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
 }
 
 .contact-form input::placeholder,
@@ -1500,7 +1499,7 @@ main .main-wrapper.demo-06 .hero-area h3 {
   font-weight: 300;
   color: #fff;
   font-weight: 700;
-  font-family: "Museo";
+  font-family: "Museo", sans-serif;
   text-align: center;
 }
 
@@ -1523,7 +1522,7 @@ a.free-a {
 }
 .free-p {
   font-size: 20px !important;
-  font-family: "Museo" !important;
+  font-family: "Museo", sans-serif !important;
   font-weight: 300 !important;
   padding-bottom: 30px !important;
   line-height: normal;
